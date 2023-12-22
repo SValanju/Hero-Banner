@@ -1,5 +1,5 @@
 #heroBanner {
-    background: url("/hero.jpg") center/cover no-repeat;
+    background: url("hero.jpg") center/cover no-repeat;
     color: #fff;
 }
 
