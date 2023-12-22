@@ -1,0 +1,31 @@
+#heroBanner {
+    background: url("/assets/img/hero.jpg") center/cover no-repeat;
+    color: #fff;
+}
+
+.navbar {
+    transition: .3s;
+}
+
+.hero-title {
+    font-size: calc(6vw + 6vh + 2vmin);
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(190, 190, 190));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(15px 10px 15px #000000);
+}
+
+.hero-subtitle {
+    font-family: 'Cutive Mono', monospace;
+    font-size: calc(1vw + 1vh + 1vmin);
+    color: #c9c9c9e8;
+}
+
+.hero-footer {
+    color: #c9c9c9e8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: calc(0.5vw + 0.5vh + 0.8vmin);
+}
